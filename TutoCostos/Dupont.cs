@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TutoCostos
 {
-    public partial class Form1 : Form
+    public partial class Dupont : Form
     {
-        public Form1()
+        public Dupont()
         {
             InitializeComponent();
         }
