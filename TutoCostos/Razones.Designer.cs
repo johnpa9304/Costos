@@ -622,7 +622,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtBox);
             this.Name = "Razones";
-            this.Text = "S";
+            this.Text = "Análisis de Indicadores";
             this.Load += new System.EventHandler(this.Razones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRazones)).EndInit();
             this.ResumeLayout(false);

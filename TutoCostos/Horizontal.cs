@@ -63,15 +63,15 @@ namespace TutoCostos
                     {
                         System.Console.WriteLine("Error: la matriz se excede...");
                     }
+
                     foreach (DataGridViewRow row in dgvHorizontal.Rows)
                     {
                         int n = row.Index;
-
-                        dr[n] = data[columnIndex+3];
+                        //Variación Absoluta = 2018 - 2017
                         dgvHorizontal.Rows[n].Cells[3].Value = (Double.Parse(dgvHorizontal.Rows
                             [n].Cells[2].Value.ToString()) - Double.Parse(dgvHorizontal.Rows
                             [n].Cells[1].Value.ToString())).ToString();
-
+                        //Variación Relativa = Variación Absoluta / Min(2018, 2017)
                         dgvHorizontal.Rows[n].Cells[4].Value = (Double.Parse(dgvHorizontal.Rows
                             [n].Cells[3].Value.ToString()) / Math.Min(Double.Parse(dgvHorizontal.Rows[n].Cells[1].Value.ToString()),
                             Double.Parse(dgvHorizontal.Rows[n].Cells[2].Value.ToString()))).ToString();
