@@ -32,6 +32,47 @@ namespace TutoCostos
 
         private void leeCSV(string filePath) {
             DataTable dt = new DataTable();
+
+            dt.Columns.Add("Cuenta", typeof(String));
+            dt.Columns.Add("V2017", typeof(Decimal));
+            dt.Columns.Add("V2018", typeof(Decimal));
+            dt.Columns.Add("VariacionAbsoluta", typeof(Decimal), "(V2018 - V2017)");
+            DataColumn VariacionRelativa = dt.Columns.Add("VariacionRelativa", typeof(Decimal));
+            VariacionRelativa.Expression = "IIF([V2018]<[V2017], ([V2018]-[V2017])/[V2018],([V2018]-[V2017])/[V2017])";
+            
+            string[] lines = System.IO.File.ReadAllLines(filePath);
+            if (lines.Length > 0)
+            {
+                for (int i = 1; i < lines.Length; i++)
+                {
+                    string[] data = lines[i].Split(';');
+                    DataRow dr = dt.NewRow();
+
+                    try
+                    {
+                        dr["Cuenta"] = data[0];
+                        dr["V2017"] = Decimal.Parse(data[1]);
+                        dr["V2018"] = Decimal.Parse(data[2]);
+
+                        dt.Rows.Add(dr);
+                    }
+                    catch (IndexOutOfRangeException)
+                    {
+                        System.Console.WriteLine("Error: la matriz se excede...");
+                    }
+
+                }
+            }
+
+            if (dt.Rows.Count > 0)
+            {
+                dgvHorizontal.DataSource = dt;
+            }
+
+
+
+
+            /*DataTable dt = new DataTable();
             string[] lines = System.IO.File.ReadAllLines(filePath);
             if(lines.Length > 0)
             {
@@ -83,7 +124,7 @@ namespace TutoCostos
             if (dt.Rows.Count > 0)
             {
                 dgvHorizontal.DataSource = dt;
-            }
+            }*/
         }
     }
 }
