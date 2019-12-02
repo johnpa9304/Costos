@@ -108,7 +108,7 @@ namespace TutoCostos
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //Calculos anio 2017
+            //Calculos anio 2018
 
             double utilidadNeta = 15398, ventas = 279128, activos = 175000, patrimonio = 95375;
 
@@ -136,6 +136,12 @@ namespace TutoCostos
 
             double roe = margenNeto * rotacionActivos * multiplicadorCapital;
             textRoe.Text = Convert.ToString(Math.Round(roe, 2));
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string analisis = "El margen de ganancia por venta aumento en el año 2018 con respecto al 2017, el nivel de apalancamiento se mantiene igual y hubo un mejora en la rentabilidad de activos y en la rentabilidad financiera del 4% y 7% respectivamente con respecto al año anterior.";
+            textAnalisis.Text = analisis;
         }
     }
 }

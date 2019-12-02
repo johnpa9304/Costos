@@ -230,5 +230,11 @@ namespace TutoCostos
             double rentabilidadOperacional = (utilidadOperacional / ventas) * 100;
             txtRentabilidadOperacional.Text = Convert.ToString(Math.Round(rentabilidadOperacional, 0));
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string analisis = "El capital de trabajo aumento en el 2018 con respecto al año anterior, la capacidad de endeudamiento se mantiene igual y la utilidad neta aumento un 4%. Pero se puede apreciar que en los dos años se demoran más en cobrar las deudas que en pagarlas lo cual se puede mejorar.";
+            textAnalisis.Text = analisis;
+        }
     }
 }

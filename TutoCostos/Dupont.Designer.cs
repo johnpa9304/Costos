@@ -44,6 +44,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.textAnalisis = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRazones)).BeginInit();
             this.SuspendLayout();
             // 
@@ -185,11 +187,33 @@
             this.label5.TabIndex = 64;
             this.label5.Text = "ROE";
             // 
+            // textAnalisis
+            // 
+            this.textAnalisis.Enabled = false;
+            this.textAnalisis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textAnalisis.Location = new System.Drawing.Point(927, 43);
+            this.textAnalisis.Multiline = true;
+            this.textAnalisis.Name = "textAnalisis";
+            this.textAnalisis.Size = new System.Drawing.Size(473, 313);
+            this.textAnalisis.TabIndex = 65;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(927, 16);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(175, 23);
+            this.button4.TabIndex = 66;
+            this.button4.Text = "Mostrar Analisis";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Dupont
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1003, 578);
+            this.ClientSize = new System.Drawing.Size(1421, 578);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textAnalisis);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -231,5 +255,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textAnalisis;
+        private System.Windows.Forms.Button button4;
     }
 }

@@ -126,5 +126,11 @@ namespace TutoCostos
                 dgvHorizontal.DataSource = dt;
             }*/
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string analisis = "Se puede apreciar que en líneas generales hubo un incremento de todas las cuentas de un año para el otro los activos subieron un 40 % igual que los pasivos y el patrimonio. Las ventas aumentaron en un 10 %, la utilidad neta incremento en un 150 %.";
+            textAnalisis.Text = analisis;
+        }
     }
 }
