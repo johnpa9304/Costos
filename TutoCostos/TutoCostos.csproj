@@ -72,6 +72,9 @@
     <Compile Include="Razones.Designer.cs">
       <DependentUpon>Razones.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dupont.resx">
+      <DependentUpon>Dupont.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainView.resx">
       <DependentUpon>MainView.cs</DependentUpon>
     </EmbeddedResource>

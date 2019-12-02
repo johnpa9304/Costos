@@ -94,8 +94,8 @@ namespace TutoCostos
 
             //Valores a ser utilizados
             double activoCorriente = 103750, pasivoCorriente = 40625, inventario = 51250, activoTotal = 125000, pasivoTotal = 56875,
-                   utilidadOperacional = 9213, gastosFinancieros = 33345, ventas = 253756, cuentasPorCobrar = 40000, costoDeVenta = 211198, 
-                   cuentasPorPagar = 24456, activosBrutos = 137500, utilidadNeta = 3044;
+                   utilidadOperacional = 12338, gastosFinancieros = 33345, ventas = 253756, cuentasPorCobrar = 40000, costoDeVenta = 211198, 
+                   cuentasPorPagar = 24456, activosBrutos = 137500, utilidadNeta = 6169;
             int dias = 365;
             //Indicadores de Liquidez
             //Razón Corriente
@@ -165,8 +165,8 @@ namespace TutoCostos
             //Botón 2018 que muestra los valores en los TextBox
             //Valores a ser utilizados
             double activoCorriente = 145250, pasivoCorriente = 56875, inventario = 71750, activoTotal = 175000, pasivoTotal = 79625,
-                   utilidadOperacional = 26421, gastosFinancieros = 36721, ventas = 279128, cuentasPorCobrar = 56000, costoDeVenta = 215986,
-                   cuentasPorPagar = 38500, activosBrutos = 196000, utilidadNeta = 11023;
+                   utilidadOperacional = 30796, gastosFinancieros = 36721, ventas = 279128, cuentasPorCobrar = 56000, costoDeVenta = 215986,
+                   cuentasPorPagar = 38500, activosBrutos = 196000, utilidadNeta = 15398;
             int dias = 365;
             //Indicadores de Liquidez
             //Razón Corriente
