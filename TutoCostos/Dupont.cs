@@ -140,7 +140,9 @@ namespace TutoCostos
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string analisis = "El margen de ganancia por venta aumento en el año 2018 con respecto al 2017, el nivel de apalancamiento se mantiene igual y hubo un mejora en la rentabilidad de activos y en la rentabilidad financiera del 4% y 7% respectivamente con respecto al año anterior.";
+            string analisis = "El margen de ganancia por venta aumento en el año 2018 con respecto al 2017, el nivel " +
+                "de apalancamiento se mantiene igual y hubo un mejora en la rentabilidad de" +
+                " activos y en la rentabilidad financiera del 4% y 7% respectivamente con respecto al año anterior.";
             textAnalisis.Text = analisis;
         }
     }

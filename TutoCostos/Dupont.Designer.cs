@@ -70,7 +70,7 @@
             // 
             // dgvRazones
             // 
-            this.dgvRazones.BackgroundColor = System.Drawing.Color.AntiqueWhite;
+            this.dgvRazones.BackgroundColor = System.Drawing.Color.White;
             this.dgvRazones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRazones.Location = new System.Drawing.Point(13, 43);
             this.dgvRazones.Margin = new System.Windows.Forms.Padding(4);

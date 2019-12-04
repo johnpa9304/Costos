@@ -42,10 +42,10 @@
             this.dgvHorizontal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvHorizontal.BackgroundColor = System.Drawing.SystemColors.Info;
+            this.dgvHorizontal.BackgroundColor = System.Drawing.Color.White;
             this.dgvHorizontal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHorizontal.Location = new System.Drawing.Point(16, 50);
-            this.dgvHorizontal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvHorizontal.Margin = new System.Windows.Forms.Padding(4);
             this.dgvHorizontal.Name = "dgvHorizontal";
             this.dgvHorizontal.RowHeadersWidth = 51;
             this.dgvHorizontal.Size = new System.Drawing.Size(771, 596);
@@ -60,7 +60,7 @@
             // 
             this.abrirArchivoBtn.BackColor = System.Drawing.Color.Gainsboro;
             this.abrirArchivoBtn.Location = new System.Drawing.Point(317, 15);
-            this.abrirArchivoBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.abrirArchivoBtn.Margin = new System.Windows.Forms.Padding(4);
             this.abrirArchivoBtn.Name = "abrirArchivoBtn";
             this.abrirArchivoBtn.Size = new System.Drawing.Size(100, 28);
             this.abrirArchivoBtn.TabIndex = 1;
@@ -71,7 +71,7 @@
             // txtPath
             // 
             this.txtPath.Location = new System.Drawing.Point(17, 16);
-            this.txtPath.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPath.Margin = new System.Windows.Forms.Padding(4);
             this.txtPath.Name = "txtPath";
             this.txtPath.Size = new System.Drawing.Size(291, 22);
             this.txtPath.TabIndex = 2;
@@ -106,7 +106,7 @@
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.abrirArchivoBtn);
             this.Controls.Add(this.dgvHorizontal);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Horizontal";
             this.Text = "Análisis Horizontal";
             ((System.ComponentModel.ISupportInitialize)(this.dgvHorizontal)).EndInit();

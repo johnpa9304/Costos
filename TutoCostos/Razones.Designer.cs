@@ -91,7 +91,7 @@
             // txtBox
             // 
             this.txtBox.Location = new System.Drawing.Point(17, 11);
-            this.txtBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBox.Margin = new System.Windows.Forms.Padding(4);
             this.txtBox.Name = "txtBox";
             this.txtBox.Size = new System.Drawing.Size(339, 22);
             this.txtBox.TabIndex = 0;
@@ -99,7 +99,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(365, 11);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(187, 25);
             this.button1.TabIndex = 1;
@@ -114,10 +114,10 @@
             // 
             // dgvRazones
             // 
-            this.dgvRazones.BackgroundColor = System.Drawing.Color.AntiqueWhite;
+            this.dgvRazones.BackgroundColor = System.Drawing.Color.White;
             this.dgvRazones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRazones.Location = new System.Drawing.Point(16, 43);
-            this.dgvRazones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvRazones.Margin = new System.Windows.Forms.Padding(4);
             this.dgvRazones.Name = "dgvRazones";
             this.dgvRazones.RowHeadersWidth = 51;
             this.dgvRazones.Size = new System.Drawing.Size(536, 511);
@@ -327,7 +327,7 @@
             // txtRazonCte
             // 
             this.txtRazonCte.Location = new System.Drawing.Point(719, 75);
-            this.txtRazonCte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRazonCte.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonCte.Name = "txtRazonCte";
             this.txtRazonCte.Size = new System.Drawing.Size(160, 22);
             this.txtRazonCte.TabIndex = 22;
@@ -335,7 +335,7 @@
             // txtRazonAcd
             // 
             this.txtRazonAcd.Location = new System.Drawing.Point(719, 107);
-            this.txtRazonAcd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRazonAcd.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonAcd.Name = "txtRazonAcd";
             this.txtRazonAcd.Size = new System.Drawing.Size(160, 22);
             this.txtRazonAcd.TabIndex = 23;
@@ -343,7 +343,7 @@
             // txtCapital
             // 
             this.txtCapital.Location = new System.Drawing.Point(719, 139);
-            this.txtCapital.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCapital.Margin = new System.Windows.Forms.Padding(4);
             this.txtCapital.Name = "txtCapital";
             this.txtCapital.Size = new System.Drawing.Size(160, 22);
             this.txtCapital.TabIndex = 24;
@@ -351,7 +351,7 @@
             // txtRazonDeuda
             // 
             this.txtRazonDeuda.Location = new System.Drawing.Point(719, 204);
-            this.txtRazonDeuda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRazonDeuda.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonDeuda.Name = "txtRazonDeuda";
             this.txtRazonDeuda.Size = new System.Drawing.Size(160, 22);
             this.txtRazonDeuda.TabIndex = 25;
@@ -359,7 +359,7 @@
             // txtCoberturaInteres
             // 
             this.txtCoberturaInteres.Location = new System.Drawing.Point(719, 250);
-            this.txtCoberturaInteres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCoberturaInteres.Margin = new System.Windows.Forms.Padding(4);
             this.txtCoberturaInteres.Name = "txtCoberturaInteres";
             this.txtCoberturaInteres.Size = new System.Drawing.Size(160, 22);
             this.txtCoberturaInteres.TabIndex = 26;
@@ -367,7 +367,7 @@
             // txtPorcionDeuda
             // 
             this.txtPorcionDeuda.Location = new System.Drawing.Point(1104, 222);
-            this.txtPorcionDeuda.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPorcionDeuda.Margin = new System.Windows.Forms.Padding(4);
             this.txtPorcionDeuda.Name = "txtPorcionDeuda";
             this.txtPorcionDeuda.Size = new System.Drawing.Size(100, 22);
             this.txtPorcionDeuda.TabIndex = 27;
@@ -375,7 +375,7 @@
             // txtRotacionInv
             // 
             this.txtRotacionInv.Location = new System.Drawing.Point(719, 386);
-            this.txtRotacionInv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRotacionInv.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionInv.Name = "txtRotacionInv";
             this.txtRotacionInv.Size = new System.Drawing.Size(147, 22);
             this.txtRotacionInv.TabIndex = 28;
@@ -383,7 +383,7 @@
             // txtRotacionActivo
             // 
             this.txtRotacionActivo.Location = new System.Drawing.Point(719, 415);
-            this.txtRotacionActivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRotacionActivo.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionActivo.Name = "txtRotacionActivo";
             this.txtRotacionActivo.Size = new System.Drawing.Size(147, 22);
             this.txtRotacionActivo.TabIndex = 29;
@@ -391,7 +391,7 @@
             // txtRentabilidadOperacional
             // 
             this.txtRentabilidadOperacional.Location = new System.Drawing.Point(737, 512);
-            this.txtRentabilidadOperacional.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRentabilidadOperacional.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadOperacional.Name = "txtRentabilidadOperacional";
             this.txtRentabilidadOperacional.Size = new System.Drawing.Size(160, 22);
             this.txtRentabilidadOperacional.TabIndex = 30;
@@ -399,7 +399,7 @@
             // txtRentabilidadNeta
             // 
             this.txtRentabilidadNeta.Location = new System.Drawing.Point(737, 480);
-            this.txtRentabilidadNeta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRentabilidadNeta.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadNeta.Name = "txtRentabilidadNeta";
             this.txtRentabilidadNeta.Size = new System.Drawing.Size(160, 22);
             this.txtRentabilidadNeta.TabIndex = 31;
@@ -407,7 +407,7 @@
             // txtRotacionCtaPagar
             // 
             this.txtRotacionCtaPagar.Location = new System.Drawing.Point(769, 354);
-            this.txtRotacionCtaPagar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRotacionCtaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCtaPagar.Name = "txtRotacionCtaPagar";
             this.txtRotacionCtaPagar.Size = new System.Drawing.Size(96, 22);
             this.txtRotacionCtaPagar.TabIndex = 32;
@@ -415,7 +415,7 @@
             // txtRotacionCartera
             // 
             this.txtRotacionCartera.Location = new System.Drawing.Point(704, 326);
-            this.txtRotacionCartera.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRotacionCartera.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCartera.Name = "txtRotacionCartera";
             this.txtRotacionCartera.Size = new System.Drawing.Size(161, 22);
             this.txtRotacionCartera.TabIndex = 33;
@@ -423,7 +423,7 @@
             // txtPeriodoInv
             // 
             this.txtPeriodoInv.Location = new System.Drawing.Point(1104, 390);
-            this.txtPeriodoInv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPeriodoInv.Margin = new System.Windows.Forms.Padding(4);
             this.txtPeriodoInv.Name = "txtPeriodoInv";
             this.txtPeriodoInv.Size = new System.Drawing.Size(100, 22);
             this.txtPeriodoInv.TabIndex = 34;
@@ -431,7 +431,7 @@
             // txtCobranzaPagar
             // 
             this.txtCobranzaPagar.Location = new System.Drawing.Point(1104, 363);
-            this.txtCobranzaPagar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCobranzaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaPagar.Name = "txtCobranzaPagar";
             this.txtCobranzaPagar.Size = new System.Drawing.Size(100, 22);
             this.txtCobranzaPagar.TabIndex = 35;
@@ -439,7 +439,7 @@
             // txtCobranzaCartera
             // 
             this.txtCobranzaCartera.Location = new System.Drawing.Point(1104, 335);
-            this.txtCobranzaCartera.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCobranzaCartera.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaCartera.Name = "txtCobranzaCartera";
             this.txtCobranzaCartera.Size = new System.Drawing.Size(100, 22);
             this.txtCobranzaCartera.TabIndex = 36;
@@ -602,7 +602,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(560, 10);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 26);
             this.button2.TabIndex = 52;
@@ -613,7 +613,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(668, 10);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 26);
             this.button3.TabIndex = 53;
@@ -702,7 +702,7 @@
             this.Controls.Add(this.dgvRazones);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Razones";
             this.Text = "Análisis de Indicadores";
             this.Load += new System.EventHandler(this.Razones_Load);
