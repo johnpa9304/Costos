@@ -83,8 +83,36 @@
             this.label34 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textAnalisis = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.label35 = new System.Windows.Forms.Label();
+            this.txtRazonCte2 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.txtRazonAcd2 = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.txtCapital2 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.txtPorcionDeuda2 = new System.Windows.Forms.TextBox();
+            this.txtCoberturaInteres2 = new System.Windows.Forms.TextBox();
+            this.txtRazonDeuda2 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.txtCobranzaCartera2 = new System.Windows.Forms.TextBox();
+            this.txtCobranzaPagar2 = new System.Windows.Forms.TextBox();
+            this.txtPeriodoInv2 = new System.Windows.Forms.TextBox();
+            this.txtRotacionCartera2 = new System.Windows.Forms.TextBox();
+            this.txtRotacionCtaPagar2 = new System.Windows.Forms.TextBox();
+            this.txtRotacionActivo2 = new System.Windows.Forms.TextBox();
+            this.txtRotacionInv2 = new System.Windows.Forms.TextBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.txtRentabilidadNeta2 = new System.Windows.Forms.TextBox();
+            this.txtRentabilidadOperacional2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvRazones)).BeginInit();
             this.SuspendLayout();
             // 
@@ -191,7 +219,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(908, 225);
+            this.label7.Location = new System.Drawing.Point(583, 237);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(195, 17);
@@ -201,7 +229,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(560, 250);
+            this.label8.Location = new System.Drawing.Point(559, 264);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(153, 17);
@@ -212,7 +240,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label9.Location = new System.Drawing.Point(765, 290);
+            this.label9.Location = new System.Drawing.Point(765, 304);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(189, 20);
@@ -222,7 +250,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(560, 330);
+            this.label10.Location = new System.Drawing.Point(561, 344);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(135, 17);
@@ -232,7 +260,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(953, 338);
+            this.label11.Location = new System.Drawing.Point(567, 403);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(140, 17);
@@ -243,7 +271,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(553, 358);
+            this.label12.Location = new System.Drawing.Point(553, 374);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(207, 17);
@@ -253,7 +281,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(953, 367);
+            this.label13.Location = new System.Drawing.Point(568, 434);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(140, 17);
@@ -263,7 +291,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(557, 390);
+            this.label14.Location = new System.Drawing.Point(557, 464);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(150, 17);
@@ -273,7 +301,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(955, 394);
+            this.label15.Location = new System.Drawing.Point(570, 494);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(137, 17);
@@ -286,7 +314,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(573, 418);
+            this.label16.Location = new System.Drawing.Point(572, 523);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(133, 17);
@@ -297,7 +325,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label17.Location = new System.Drawing.Point(765, 455);
+            this.label17.Location = new System.Drawing.Point(765, 579);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(215, 20);
@@ -307,7 +335,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(599, 484);
+            this.label18.Location = new System.Drawing.Point(607, 624);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(121, 17);
@@ -317,12 +345,13 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(561, 516);
+            this.label19.Location = new System.Drawing.Point(560, 658);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(168, 17);
             this.label19.TabIndex = 21;
             this.label19.Text = "Rentabilidad Operacional";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // txtRazonCte
             // 
@@ -358,7 +387,7 @@
             // 
             // txtCoberturaInteres
             // 
-            this.txtCoberturaInteres.Location = new System.Drawing.Point(719, 250);
+            this.txtCoberturaInteres.Location = new System.Drawing.Point(718, 264);
             this.txtCoberturaInteres.Margin = new System.Windows.Forms.Padding(4);
             this.txtCoberturaInteres.Name = "txtCoberturaInteres";
             this.txtCoberturaInteres.Size = new System.Drawing.Size(160, 22);
@@ -366,7 +395,7 @@
             // 
             // txtPorcionDeuda
             // 
-            this.txtPorcionDeuda.Location = new System.Drawing.Point(1104, 222);
+            this.txtPorcionDeuda.Location = new System.Drawing.Point(779, 234);
             this.txtPorcionDeuda.Margin = new System.Windows.Forms.Padding(4);
             this.txtPorcionDeuda.Name = "txtPorcionDeuda";
             this.txtPorcionDeuda.Size = new System.Drawing.Size(100, 22);
@@ -374,7 +403,7 @@
             // 
             // txtRotacionInv
             // 
-            this.txtRotacionInv.Location = new System.Drawing.Point(719, 386);
+            this.txtRotacionInv.Location = new System.Drawing.Point(719, 460);
             this.txtRotacionInv.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionInv.Name = "txtRotacionInv";
             this.txtRotacionInv.Size = new System.Drawing.Size(147, 22);
@@ -382,7 +411,7 @@
             // 
             // txtRotacionActivo
             // 
-            this.txtRotacionActivo.Location = new System.Drawing.Point(719, 415);
+            this.txtRotacionActivo.Location = new System.Drawing.Point(718, 520);
             this.txtRotacionActivo.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionActivo.Name = "txtRotacionActivo";
             this.txtRotacionActivo.Size = new System.Drawing.Size(147, 22);
@@ -390,15 +419,16 @@
             // 
             // txtRentabilidadOperacional
             // 
-            this.txtRentabilidadOperacional.Location = new System.Drawing.Point(737, 512);
+            this.txtRentabilidadOperacional.Location = new System.Drawing.Point(737, 658);
             this.txtRentabilidadOperacional.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadOperacional.Name = "txtRentabilidadOperacional";
             this.txtRentabilidadOperacional.Size = new System.Drawing.Size(160, 22);
             this.txtRentabilidadOperacional.TabIndex = 30;
+            this.txtRentabilidadOperacional.TextChanged += new System.EventHandler(this.txtRentabilidadOperacional_TextChanged);
             // 
             // txtRentabilidadNeta
             // 
-            this.txtRentabilidadNeta.Location = new System.Drawing.Point(737, 480);
+            this.txtRentabilidadNeta.Location = new System.Drawing.Point(737, 619);
             this.txtRentabilidadNeta.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadNeta.Name = "txtRentabilidadNeta";
             this.txtRentabilidadNeta.Size = new System.Drawing.Size(160, 22);
@@ -406,7 +436,7 @@
             // 
             // txtRotacionCtaPagar
             // 
-            this.txtRotacionCtaPagar.Location = new System.Drawing.Point(769, 354);
+            this.txtRotacionCtaPagar.Location = new System.Drawing.Point(769, 370);
             this.txtRotacionCtaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCtaPagar.Name = "txtRotacionCtaPagar";
             this.txtRotacionCtaPagar.Size = new System.Drawing.Size(96, 22);
@@ -414,7 +444,7 @@
             // 
             // txtRotacionCartera
             // 
-            this.txtRotacionCartera.Location = new System.Drawing.Point(704, 326);
+            this.txtRotacionCartera.Location = new System.Drawing.Point(705, 340);
             this.txtRotacionCartera.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCartera.Name = "txtRotacionCartera";
             this.txtRotacionCartera.Size = new System.Drawing.Size(161, 22);
@@ -422,7 +452,7 @@
             // 
             // txtPeriodoInv
             // 
-            this.txtPeriodoInv.Location = new System.Drawing.Point(1104, 390);
+            this.txtPeriodoInv.Location = new System.Drawing.Point(719, 490);
             this.txtPeriodoInv.Margin = new System.Windows.Forms.Padding(4);
             this.txtPeriodoInv.Name = "txtPeriodoInv";
             this.txtPeriodoInv.Size = new System.Drawing.Size(100, 22);
@@ -430,7 +460,7 @@
             // 
             // txtCobranzaPagar
             // 
-            this.txtCobranzaPagar.Location = new System.Drawing.Point(1104, 363);
+            this.txtCobranzaPagar.Location = new System.Drawing.Point(719, 430);
             this.txtCobranzaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaPagar.Name = "txtCobranzaPagar";
             this.txtCobranzaPagar.Size = new System.Drawing.Size(100, 22);
@@ -438,7 +468,7 @@
             // 
             // txtCobranzaCartera
             // 
-            this.txtCobranzaCartera.Location = new System.Drawing.Point(1104, 335);
+            this.txtCobranzaCartera.Location = new System.Drawing.Point(718, 400);
             this.txtCobranzaCartera.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaCartera.Name = "txtCobranzaCartera";
             this.txtCobranzaCartera.Size = new System.Drawing.Size(100, 22);
@@ -448,7 +478,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label20.Location = new System.Drawing.Point(908, 482);
+            this.label20.Location = new System.Drawing.Point(905, 624);
             this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(21, 18);
@@ -459,17 +489,18 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label21.Location = new System.Drawing.Point(908, 516);
+            this.label21.Location = new System.Drawing.Point(905, 662);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(21, 18);
             this.label21.TabIndex = 38;
             this.label21.Text = "%";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(876, 418);
+            this.label22.Location = new System.Drawing.Point(875, 523);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(47, 17);
@@ -479,7 +510,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(1213, 394);
+            this.label23.Location = new System.Drawing.Point(828, 494);
             this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(36, 17);
@@ -489,7 +520,7 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(875, 390);
+            this.label24.Location = new System.Drawing.Point(875, 464);
             this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(47, 17);
@@ -499,7 +530,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(875, 358);
+            this.label25.Location = new System.Drawing.Point(875, 374);
             this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(47, 17);
@@ -509,7 +540,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(875, 330);
+            this.label26.Location = new System.Drawing.Point(876, 344);
             this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(47, 17);
@@ -519,7 +550,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(1213, 367);
+            this.label27.Location = new System.Drawing.Point(828, 434);
             this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(36, 17);
@@ -529,7 +560,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(1213, 338);
+            this.label28.Location = new System.Drawing.Point(827, 403);
             this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(36, 17);
@@ -539,7 +570,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(888, 254);
+            this.label29.Location = new System.Drawing.Point(887, 268);
             this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(47, 17);
@@ -550,7 +581,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label30.Location = new System.Drawing.Point(1213, 223);
+            this.label30.Location = new System.Drawing.Point(888, 235);
             this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(21, 18);
@@ -601,7 +632,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(560, 10);
+            this.button2.Location = new System.Drawing.Point(747, 13);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 26);
@@ -612,7 +643,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(668, 10);
+            this.button3.Location = new System.Drawing.Point(1083, 13);
             this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 26);
@@ -621,33 +652,316 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textAnalisis
+            // label35
             // 
-            this.textAnalisis.Enabled = false;
-            this.textAnalisis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textAnalisis.Location = new System.Drawing.Point(1340, 63);
-            this.textAnalisis.Multiline = true;
-            this.textAnalisis.Name = "textAnalisis";
-            this.textAnalisis.Size = new System.Drawing.Size(473, 313);
-            this.textAnalisis.TabIndex = 54;
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(1221, 83);
+            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(47, 17);
+            this.label35.TabIndex = 55;
+            this.label35.Text = "Veces";
             // 
-            // button4
+            // txtRazonCte2
             // 
-            this.button4.Location = new System.Drawing.Point(1340, 13);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(175, 23);
-            this.button4.TabIndex = 55;
-            this.button4.Text = "Mostrar Analisis";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.txtRazonCte2.Location = new System.Drawing.Point(1052, 80);
+            this.txtRazonCte2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRazonCte2.Name = "txtRazonCte2";
+            this.txtRazonCte2.Size = new System.Drawing.Size(160, 22);
+            this.txtRazonCte2.TabIndex = 54;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(1221, 115);
+            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(47, 17);
+            this.label36.TabIndex = 57;
+            this.label36.Text = "Veces";
+            // 
+            // txtRazonAcd2
+            // 
+            this.txtRazonAcd2.Location = new System.Drawing.Point(1052, 111);
+            this.txtRazonAcd2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRazonAcd2.Name = "txtRazonAcd2";
+            this.txtRazonAcd2.Size = new System.Drawing.Size(160, 22);
+            this.txtRazonAcd2.TabIndex = 56;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label37.Location = new System.Drawing.Point(1221, 142);
+            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(16, 18);
+            this.label37.TabIndex = 59;
+            this.label37.Text = "$";
+            // 
+            // txtCapital2
+            // 
+            this.txtCapital2.Location = new System.Drawing.Point(1052, 141);
+            this.txtCapital2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCapital2.Name = "txtCapital2";
+            this.txtCapital2.Size = new System.Drawing.Size(160, 22);
+            this.txtCapital2.TabIndex = 58;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label38.Location = new System.Drawing.Point(1221, 204);
+            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(21, 18);
+            this.label38.TabIndex = 65;
+            this.label38.Text = "%";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label39.Location = new System.Drawing.Point(1221, 233);
+            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(21, 18);
+            this.label39.TabIndex = 64;
+            this.label39.Text = "%";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(1220, 266);
+            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(47, 17);
+            this.label40.TabIndex = 63;
+            this.label40.Text = "Veces";
+            // 
+            // txtPorcionDeuda2
+            // 
+            this.txtPorcionDeuda2.Location = new System.Drawing.Point(1112, 232);
+            this.txtPorcionDeuda2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPorcionDeuda2.Name = "txtPorcionDeuda2";
+            this.txtPorcionDeuda2.Size = new System.Drawing.Size(100, 22);
+            this.txtPorcionDeuda2.TabIndex = 62;
+            // 
+            // txtCoberturaInteres2
+            // 
+            this.txtCoberturaInteres2.Location = new System.Drawing.Point(1051, 262);
+            this.txtCoberturaInteres2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCoberturaInteres2.Name = "txtCoberturaInteres2";
+            this.txtCoberturaInteres2.Size = new System.Drawing.Size(160, 22);
+            this.txtCoberturaInteres2.TabIndex = 61;
+            // 
+            // txtRazonDeuda2
+            // 
+            this.txtRazonDeuda2.Location = new System.Drawing.Point(1052, 202);
+            this.txtRazonDeuda2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRazonDeuda2.Name = "txtRazonDeuda2";
+            this.txtRazonDeuda2.Size = new System.Drawing.Size(160, 22);
+            this.txtRazonDeuda2.TabIndex = 60;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(1172, 403);
+            this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(36, 17);
+            this.label41.TabIndex = 79;
+            this.label41.Text = "Días";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(1173, 434);
+            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(36, 17);
+            this.label42.TabIndex = 78;
+            this.label42.Text = "Días";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(1221, 344);
+            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(47, 17);
+            this.label43.TabIndex = 77;
+            this.label43.Text = "Veces";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(1220, 374);
+            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(47, 17);
+            this.label44.TabIndex = 76;
+            this.label44.Text = "Veces";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(1220, 464);
+            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(47, 17);
+            this.label45.TabIndex = 75;
+            this.label45.Text = "Veces";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(1173, 494);
+            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(36, 17);
+            this.label46.TabIndex = 74;
+            this.label46.Text = "Días";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(1220, 523);
+            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(47, 17);
+            this.label47.TabIndex = 73;
+            this.label47.Text = "Veces";
+            // 
+            // txtCobranzaCartera2
+            // 
+            this.txtCobranzaCartera2.Location = new System.Drawing.Point(1063, 400);
+            this.txtCobranzaCartera2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCobranzaCartera2.Name = "txtCobranzaCartera2";
+            this.txtCobranzaCartera2.Size = new System.Drawing.Size(100, 22);
+            this.txtCobranzaCartera2.TabIndex = 72;
+            // 
+            // txtCobranzaPagar2
+            // 
+            this.txtCobranzaPagar2.Location = new System.Drawing.Point(1064, 430);
+            this.txtCobranzaPagar2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCobranzaPagar2.Name = "txtCobranzaPagar2";
+            this.txtCobranzaPagar2.Size = new System.Drawing.Size(100, 22);
+            this.txtCobranzaPagar2.TabIndex = 71;
+            // 
+            // txtPeriodoInv2
+            // 
+            this.txtPeriodoInv2.Location = new System.Drawing.Point(1064, 490);
+            this.txtPeriodoInv2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPeriodoInv2.Name = "txtPeriodoInv2";
+            this.txtPeriodoInv2.Size = new System.Drawing.Size(100, 22);
+            this.txtPeriodoInv2.TabIndex = 70;
+            // 
+            // txtRotacionCartera2
+            // 
+            this.txtRotacionCartera2.Location = new System.Drawing.Point(1050, 340);
+            this.txtRotacionCartera2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRotacionCartera2.Name = "txtRotacionCartera2";
+            this.txtRotacionCartera2.Size = new System.Drawing.Size(161, 22);
+            this.txtRotacionCartera2.TabIndex = 69;
+            // 
+            // txtRotacionCtaPagar2
+            // 
+            this.txtRotacionCtaPagar2.Location = new System.Drawing.Point(1114, 370);
+            this.txtRotacionCtaPagar2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRotacionCtaPagar2.Name = "txtRotacionCtaPagar2";
+            this.txtRotacionCtaPagar2.Size = new System.Drawing.Size(96, 22);
+            this.txtRotacionCtaPagar2.TabIndex = 68;
+            // 
+            // txtRotacionActivo2
+            // 
+            this.txtRotacionActivo2.Location = new System.Drawing.Point(1063, 520);
+            this.txtRotacionActivo2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRotacionActivo2.Name = "txtRotacionActivo2";
+            this.txtRotacionActivo2.Size = new System.Drawing.Size(147, 22);
+            this.txtRotacionActivo2.TabIndex = 67;
+            // 
+            // txtRotacionInv2
+            // 
+            this.txtRotacionInv2.Location = new System.Drawing.Point(1064, 460);
+            this.txtRotacionInv2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRotacionInv2.Name = "txtRotacionInv2";
+            this.txtRotacionInv2.Size = new System.Drawing.Size(147, 22);
+            this.txtRotacionInv2.TabIndex = 66;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label48.Location = new System.Drawing.Point(1219, 664);
+            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(21, 18);
+            this.label48.TabIndex = 83;
+            this.label48.Text = "%";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.label49.Location = new System.Drawing.Point(1219, 626);
+            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(21, 18);
+            this.label49.TabIndex = 82;
+            this.label49.Text = "%";
+            // 
+            // txtRentabilidadNeta2
+            // 
+            this.txtRentabilidadNeta2.Location = new System.Drawing.Point(1051, 621);
+            this.txtRentabilidadNeta2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRentabilidadNeta2.Name = "txtRentabilidadNeta2";
+            this.txtRentabilidadNeta2.Size = new System.Drawing.Size(160, 22);
+            this.txtRentabilidadNeta2.TabIndex = 81;
+            // 
+            // txtRentabilidadOperacional2
+            // 
+            this.txtRentabilidadOperacional2.Location = new System.Drawing.Point(1051, 660);
+            this.txtRentabilidadOperacional2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRentabilidadOperacional2.Name = "txtRentabilidadOperacional2";
+            this.txtRentabilidadOperacional2.Size = new System.Drawing.Size(160, 22);
+            this.txtRentabilidadOperacional2.TabIndex = 80;
             // 
             // Razones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1865, 581);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textAnalisis);
+            this.ClientSize = new System.Drawing.Size(1327, 773);
+            this.Controls.Add(this.label48);
+            this.Controls.Add(this.label49);
+            this.Controls.Add(this.txtRentabilidadNeta2);
+            this.Controls.Add(this.txtRentabilidadOperacional2);
+            this.Controls.Add(this.label41);
+            this.Controls.Add(this.label42);
+            this.Controls.Add(this.label43);
+            this.Controls.Add(this.label44);
+            this.Controls.Add(this.label45);
+            this.Controls.Add(this.label46);
+            this.Controls.Add(this.label47);
+            this.Controls.Add(this.txtCobranzaCartera2);
+            this.Controls.Add(this.txtCobranzaPagar2);
+            this.Controls.Add(this.txtPeriodoInv2);
+            this.Controls.Add(this.txtRotacionCartera2);
+            this.Controls.Add(this.txtRotacionCtaPagar2);
+            this.Controls.Add(this.txtRotacionActivo2);
+            this.Controls.Add(this.txtRotacionInv2);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.txtPorcionDeuda2);
+            this.Controls.Add(this.txtCoberturaInteres2);
+            this.Controls.Add(this.txtRazonDeuda2);
+            this.Controls.Add(this.label37);
+            this.Controls.Add(this.txtCapital2);
+            this.Controls.Add(this.label36);
+            this.Controls.Add(this.txtRazonAcd2);
+            this.Controls.Add(this.label35);
+            this.Controls.Add(this.txtRazonCte2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label34);
@@ -769,7 +1083,35 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textAnalisis;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox txtRazonCte2;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.TextBox txtRazonAcd2;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox txtCapital2;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.TextBox txtPorcionDeuda2;
+        private System.Windows.Forms.TextBox txtCoberturaInteres2;
+        private System.Windows.Forms.TextBox txtRazonDeuda2;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.TextBox txtCobranzaCartera2;
+        private System.Windows.Forms.TextBox txtCobranzaPagar2;
+        private System.Windows.Forms.TextBox txtPeriodoInv2;
+        private System.Windows.Forms.TextBox txtRotacionCartera2;
+        private System.Windows.Forms.TextBox txtRotacionCtaPagar2;
+        private System.Windows.Forms.TextBox txtRotacionActivo2;
+        private System.Windows.Forms.TextBox txtRotacionInv2;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.TextBox txtRentabilidadNeta2;
+        private System.Windows.Forms.TextBox txtRentabilidadOperacional2;
     }
 }

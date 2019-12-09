@@ -32,8 +32,6 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.abrirArchivoBtn = new System.Windows.Forms.Button();
             this.txtPath = new System.Windows.Forms.TextBox();
-            this.textAnalisis = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHorizontal)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +46,7 @@
             this.dgvHorizontal.Margin = new System.Windows.Forms.Padding(4);
             this.dgvHorizontal.Name = "dgvHorizontal";
             this.dgvHorizontal.RowHeadersWidth = 51;
-            this.dgvHorizontal.Size = new System.Drawing.Size(771, 596);
+            this.dgvHorizontal.Size = new System.Drawing.Size(777, 596);
             this.dgvHorizontal.TabIndex = 0;
             this.dgvHorizontal.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
@@ -76,33 +74,11 @@
             this.txtPath.Size = new System.Drawing.Size(291, 22);
             this.txtPath.TabIndex = 2;
             // 
-            // textAnalisis
-            // 
-            this.textAnalisis.Enabled = false;
-            this.textAnalisis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textAnalisis.Location = new System.Drawing.Point(836, 50);
-            this.textAnalisis.Multiline = true;
-            this.textAnalisis.Name = "textAnalisis";
-            this.textAnalisis.Size = new System.Drawing.Size(473, 313);
-            this.textAnalisis.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(836, 16);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Mostrar Analisis";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // Horizontal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1358, 661);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textAnalisis);
+            this.ClientSize = new System.Drawing.Size(806, 661);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.abrirArchivoBtn);
             this.Controls.Add(this.dgvHorizontal);
@@ -121,7 +97,5 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button abrirArchivoBtn;
         private System.Windows.Forms.TextBox txtPath;
-        private System.Windows.Forms.TextBox textAnalisis;
-        private System.Windows.Forms.Button button1;
     }
 }

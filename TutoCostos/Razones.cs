@@ -171,70 +171,84 @@ namespace TutoCostos
             //Indicadores de Liquidez
             //Razón Corriente
             double razonCorriente = activoCorriente / pasivoCorriente;
-            txtRazonCte.Text = Convert.ToString(Math.Round(razonCorriente, 2));
+            txtRazonCte2.Text = Convert.ToString(Math.Round(razonCorriente, 2));
 
             //Razón Ácida
             double razonAcida = (activoCorriente - inventario) / pasivoCorriente;
-            txtRazonAcd.Text = Convert.ToString(Math.Round(razonAcida, 2));
+            txtRazonAcd2.Text = Convert.ToString(Math.Round(razonAcida, 2));
 
             //Capital de Trabajo
             double capitalDeTrabajo = activoCorriente - pasivoCorriente;
-            txtCapital.Text = Convert.ToString(Math.Round(capitalDeTrabajo, 2));
+            txtCapital2.Text = Convert.ToString(Math.Round(capitalDeTrabajo, 2));
 
             //Indicadores de Endeudamiento
             //Razón de Endeudamiento
             double razonDeEndeudamiento = (pasivoTotal / activoTotal) * 100;
-            txtRazonDeuda.Text = Convert.ToString(Math.Round(razonDeEndeudamiento));
+            txtRazonDeuda2.Text = Convert.ToString(Math.Round(razonDeEndeudamiento));
 
             //Razón Porción Corriente de la Deuda
             double razonPorcionCorrienteDeLaDeuda = (pasivoCorriente / pasivoTotal) * 100;
-            txtPorcionDeuda.Text = Convert.ToString(Math.Round(razonPorcionCorrienteDeLaDeuda));
+            txtPorcionDeuda2.Text = Convert.ToString(Math.Round(razonPorcionCorrienteDeLaDeuda));
 
             //Razón Cobertura de Interéses
             double razonCoberturaDeIntereses = (utilidadOperacional / gastosFinancieros);
-            txtCoberturaInteres.Text = Convert.ToString(Math.Round(razonCoberturaDeIntereses, 2));
+            txtCoberturaInteres2.Text = Convert.ToString(Math.Round(razonCoberturaDeIntereses, 2));
 
             //Indicadores de Actividad
             //Rotación de Cartera
             double rotacionDeCartera = ventas / cuentasPorCobrar;
             double periodoDeCobranza = dias / rotacionDeCartera;
 
-            txtRotacionCartera.Text = Convert.ToString(Math.Round(rotacionDeCartera, 2));
-            txtCobranzaCartera.Text = Convert.ToString(Math.Round(periodoDeCobranza, 0));
+            txtRotacionCartera2.Text = Convert.ToString(Math.Round(rotacionDeCartera, 2));
+            txtCobranzaCartera2.Text = Convert.ToString(Math.Round(periodoDeCobranza, 0));
 
             //Rotación de Cuentas Por Pagar
             double rotacionCuentasPorPagar = costoDeVenta / cuentasPorPagar;
             double periodoDeCobranza_ = dias / rotacionCuentasPorPagar;
 
-            txtRotacionCtaPagar.Text = Convert.ToString(Math.Round(rotacionCuentasPorPagar, 2));
-            txtCobranzaPagar.Text = Convert.ToString(Math.Round(periodoDeCobranza_, 0));
+            txtRotacionCtaPagar2.Text = Convert.ToString(Math.Round(rotacionCuentasPorPagar, 2));
+            txtCobranzaPagar2.Text = Convert.ToString(Math.Round(periodoDeCobranza_, 0));
 
             //Rotación de Inventario
             double rotacionInventario = costoDeVenta / inventario;
             double periodoDeRotacion = dias / rotacionInventario;
 
-            txtRotacionInv.Text = Convert.ToString(Math.Round(rotacionInventario, 2));
-            txtPeriodoInv.Text = Convert.ToString(Math.Round(periodoDeRotacion, 0));
+            txtRotacionInv2.Text = Convert.ToString(Math.Round(rotacionInventario, 2));
+            txtPeriodoInv2.Text = Convert.ToString(Math.Round(periodoDeRotacion, 0));
 
             //Rotación de Activos
             double rotacionActivos = ventas / activosBrutos;
 
-            txtRotacionActivo.Text = Convert.ToString(Math.Round(rotacionActivos, 2));
+            txtRotacionActivo2.Text = Convert.ToString(Math.Round(rotacionActivos, 2));
 
             //Indicadores de Rentabilidad
             //Rentabilidad Neta
             double rentabilidadNeta = (utilidadNeta / ventas) * 100;
-            txtRentabilidadNeta.Text = Convert.ToString(Math.Round(rentabilidadNeta, 0));
+            txtRentabilidadNeta2.Text = Convert.ToString(Math.Round(rentabilidadNeta, 0));
 
             //Rentabilidad Operacional
             double rentabilidadOperacional = (utilidadOperacional / ventas) * 100;
-            txtRentabilidadOperacional.Text = Convert.ToString(Math.Round(rentabilidadOperacional, 0));
+            txtRentabilidadOperacional2.Text = Convert.ToString(Math.Round(rentabilidadOperacional, 0));
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string analisis = "El capital de trabajo aumento en el 2018 con respecto al año anterior, la capacidad de endeudamiento se mantiene igual y la utilidad neta aumento un 4%. Pero se puede apreciar que en los dos años se demoran más en cobrar las deudas que en pagarlas lo cual se puede mejorar.";
-            textAnalisis.Text = analisis;
+            
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtRentabilidadOperacional_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

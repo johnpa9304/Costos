@@ -80,6 +80,12 @@ namespace TutoCostos
 
             double utilidadNeta = 6169, ventas = 253756, activos = 125000, patrimonio = 68125;
 
+            textActivos.Text = Convert.ToString(Math.Round(activos, 2));
+            textPatrimonio.Text = Convert.ToString(Math.Round(patrimonio, 2));
+            textUtilidadNeta.Text = Convert.ToString(Math.Round(utilidadNeta, 2));
+            textActivos3.Text = Convert.ToString(Math.Round(activos, 2));
+            textVentas.Text = Convert.ToString(Math.Round(ventas, 2));
+
             //Calculo del margen neto
 
             double margenNeto = utilidadNeta / ventas;
@@ -111,39 +117,41 @@ namespace TutoCostos
             //Calculos anio 2018
 
             double utilidadNeta = 15398, ventas = 279128, activos = 175000, patrimonio = 95375;
+            textActivos2.Text = Convert.ToString(Math.Round(activos, 2));
+            textPatrimonio2.Text = Convert.ToString(Math.Round(patrimonio, 2));
+            textUtilidadNeta2.Text = Convert.ToString(Math.Round(utilidadNeta, 2));
+            textActivos4.Text = Convert.ToString(Math.Round(activos, 2));
+            textVentas2.Text = Convert.ToString(Math.Round(ventas, 2));
 
             //Calculo del margen neto
 
             double margenNeto = utilidadNeta / ventas;
-            textMargenNeto.Text = Convert.ToString(Math.Round(margenNeto, 2));
+            textMargenNeto2.Text = Convert.ToString(Math.Round(margenNeto, 2));
 
             //Calculo de rotacion de activos
 
             double rotacionActivos = ventas / activos;
-            textRotacionActivos.Text = Convert.ToString(Math.Round(rotacionActivos, 2));
+            textRotacionActivos2.Text = Convert.ToString(Math.Round(rotacionActivos, 2));
 
             //Calculo de Multiplicador de capital
 
             double multiplicadorCapital = activos / patrimonio;
-            textMultiplicadorCapital.Text = Convert.ToString(Math.Round(multiplicadorCapital, 2));
+            textMultiplicadorCapital2.Text = Convert.ToString(Math.Round(multiplicadorCapital, 2));
 
             //Calculo del Roa
 
             double roa = utilidadNeta / activos;
-            textRoa.Text = Convert.ToString(Math.Round(roa, 2));
+            textRoa2.Text = Convert.ToString(Math.Round(roa, 2));
 
             //Calculo del Roe
 
             double roe = margenNeto * rotacionActivos * multiplicadorCapital;
-            textRoe.Text = Convert.ToString(Math.Round(roe, 2));
+            textRoe2.Text = Convert.ToString(Math.Round(roe, 2));
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string analisis = "El margen de ganancia por venta aumento en el año 2018 con respecto al 2017, el nivel " +
-                "de apalancamiento se mantiene igual y hubo un mejora en la rentabilidad de" +
-                " activos y en la rentabilidad financiera del 4% y 7% respectivamente con respecto al año anterior.";
-            textAnalisis.Text = analisis;
+            
         }
     }
 }
