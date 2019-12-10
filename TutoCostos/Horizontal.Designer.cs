@@ -40,13 +40,13 @@
             this.dgvHorizontal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvHorizontal.BackgroundColor = System.Drawing.Color.White;
+            this.dgvHorizontal.BackgroundColor = System.Drawing.SystemColors.Info;
             this.dgvHorizontal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHorizontal.Location = new System.Drawing.Point(16, 50);
             this.dgvHorizontal.Margin = new System.Windows.Forms.Padding(4);
             this.dgvHorizontal.Name = "dgvHorizontal";
             this.dgvHorizontal.RowHeadersWidth = 51;
-            this.dgvHorizontal.Size = new System.Drawing.Size(777, 596);
+            this.dgvHorizontal.Size = new System.Drawing.Size(904, 596);
             this.dgvHorizontal.TabIndex = 0;
             this.dgvHorizontal.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellContentClick);
             // 
@@ -78,7 +78,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(806, 661);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(933, 661);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.abrirArchivoBtn);
             this.Controls.Add(this.dgvHorizontal);

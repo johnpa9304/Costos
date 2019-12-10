@@ -142,7 +142,7 @@
             // 
             // dgvRazones
             // 
-            this.dgvRazones.BackgroundColor = System.Drawing.Color.White;
+            this.dgvRazones.BackgroundColor = System.Drawing.SystemColors.Info;
             this.dgvRazones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRazones.Location = new System.Drawing.Point(16, 43);
             this.dgvRazones.Margin = new System.Windows.Forms.Padding(4);
@@ -355,6 +355,8 @@
             // 
             // txtRazonCte
             // 
+            this.txtRazonCte.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.txtRazonCte.Enabled = false;
             this.txtRazonCte.Location = new System.Drawing.Point(719, 75);
             this.txtRazonCte.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonCte.Name = "txtRazonCte";
@@ -363,6 +365,7 @@
             // 
             // txtRazonAcd
             // 
+            this.txtRazonAcd.Enabled = false;
             this.txtRazonAcd.Location = new System.Drawing.Point(719, 107);
             this.txtRazonAcd.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonAcd.Name = "txtRazonAcd";
@@ -371,6 +374,7 @@
             // 
             // txtCapital
             // 
+            this.txtCapital.Enabled = false;
             this.txtCapital.Location = new System.Drawing.Point(719, 139);
             this.txtCapital.Margin = new System.Windows.Forms.Padding(4);
             this.txtCapital.Name = "txtCapital";
@@ -379,6 +383,7 @@
             // 
             // txtRazonDeuda
             // 
+            this.txtRazonDeuda.Enabled = false;
             this.txtRazonDeuda.Location = new System.Drawing.Point(719, 204);
             this.txtRazonDeuda.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonDeuda.Name = "txtRazonDeuda";
@@ -387,6 +392,7 @@
             // 
             // txtCoberturaInteres
             // 
+            this.txtCoberturaInteres.Enabled = false;
             this.txtCoberturaInteres.Location = new System.Drawing.Point(718, 264);
             this.txtCoberturaInteres.Margin = new System.Windows.Forms.Padding(4);
             this.txtCoberturaInteres.Name = "txtCoberturaInteres";
@@ -395,6 +401,7 @@
             // 
             // txtPorcionDeuda
             // 
+            this.txtPorcionDeuda.Enabled = false;
             this.txtPorcionDeuda.Location = new System.Drawing.Point(779, 234);
             this.txtPorcionDeuda.Margin = new System.Windows.Forms.Padding(4);
             this.txtPorcionDeuda.Name = "txtPorcionDeuda";
@@ -403,6 +410,7 @@
             // 
             // txtRotacionInv
             // 
+            this.txtRotacionInv.Enabled = false;
             this.txtRotacionInv.Location = new System.Drawing.Point(719, 460);
             this.txtRotacionInv.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionInv.Name = "txtRotacionInv";
@@ -411,6 +419,7 @@
             // 
             // txtRotacionActivo
             // 
+            this.txtRotacionActivo.Enabled = false;
             this.txtRotacionActivo.Location = new System.Drawing.Point(718, 520);
             this.txtRotacionActivo.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionActivo.Name = "txtRotacionActivo";
@@ -419,6 +428,7 @@
             // 
             // txtRentabilidadOperacional
             // 
+            this.txtRentabilidadOperacional.Enabled = false;
             this.txtRentabilidadOperacional.Location = new System.Drawing.Point(737, 658);
             this.txtRentabilidadOperacional.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadOperacional.Name = "txtRentabilidadOperacional";
@@ -428,6 +438,7 @@
             // 
             // txtRentabilidadNeta
             // 
+            this.txtRentabilidadNeta.Enabled = false;
             this.txtRentabilidadNeta.Location = new System.Drawing.Point(737, 619);
             this.txtRentabilidadNeta.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadNeta.Name = "txtRentabilidadNeta";
@@ -436,6 +447,7 @@
             // 
             // txtRotacionCtaPagar
             // 
+            this.txtRotacionCtaPagar.Enabled = false;
             this.txtRotacionCtaPagar.Location = new System.Drawing.Point(769, 370);
             this.txtRotacionCtaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCtaPagar.Name = "txtRotacionCtaPagar";
@@ -444,6 +456,7 @@
             // 
             // txtRotacionCartera
             // 
+            this.txtRotacionCartera.Enabled = false;
             this.txtRotacionCartera.Location = new System.Drawing.Point(705, 340);
             this.txtRotacionCartera.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCartera.Name = "txtRotacionCartera";
@@ -452,6 +465,7 @@
             // 
             // txtPeriodoInv
             // 
+            this.txtPeriodoInv.Enabled = false;
             this.txtPeriodoInv.Location = new System.Drawing.Point(719, 490);
             this.txtPeriodoInv.Margin = new System.Windows.Forms.Padding(4);
             this.txtPeriodoInv.Name = "txtPeriodoInv";
@@ -460,6 +474,7 @@
             // 
             // txtCobranzaPagar
             // 
+            this.txtCobranzaPagar.Enabled = false;
             this.txtCobranzaPagar.Location = new System.Drawing.Point(719, 430);
             this.txtCobranzaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaPagar.Name = "txtCobranzaPagar";
@@ -468,6 +483,7 @@
             // 
             // txtCobranzaCartera
             // 
+            this.txtCobranzaCartera.Enabled = false;
             this.txtCobranzaCartera.Location = new System.Drawing.Point(718, 400);
             this.txtCobranzaCartera.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaCartera.Name = "txtCobranzaCartera";
@@ -664,6 +680,7 @@
             // 
             // txtRazonCte2
             // 
+            this.txtRazonCte2.Enabled = false;
             this.txtRazonCte2.Location = new System.Drawing.Point(1052, 80);
             this.txtRazonCte2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonCte2.Name = "txtRazonCte2";
@@ -682,6 +699,7 @@
             // 
             // txtRazonAcd2
             // 
+            this.txtRazonAcd2.Enabled = false;
             this.txtRazonAcd2.Location = new System.Drawing.Point(1052, 111);
             this.txtRazonAcd2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonAcd2.Name = "txtRazonAcd2";
@@ -701,6 +719,7 @@
             // 
             // txtCapital2
             // 
+            this.txtCapital2.Enabled = false;
             this.txtCapital2.Location = new System.Drawing.Point(1052, 141);
             this.txtCapital2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCapital2.Name = "txtCapital2";
@@ -741,6 +760,7 @@
             // 
             // txtPorcionDeuda2
             // 
+            this.txtPorcionDeuda2.Enabled = false;
             this.txtPorcionDeuda2.Location = new System.Drawing.Point(1112, 232);
             this.txtPorcionDeuda2.Margin = new System.Windows.Forms.Padding(4);
             this.txtPorcionDeuda2.Name = "txtPorcionDeuda2";
@@ -749,6 +769,7 @@
             // 
             // txtCoberturaInteres2
             // 
+            this.txtCoberturaInteres2.Enabled = false;
             this.txtCoberturaInteres2.Location = new System.Drawing.Point(1051, 262);
             this.txtCoberturaInteres2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCoberturaInteres2.Name = "txtCoberturaInteres2";
@@ -757,6 +778,7 @@
             // 
             // txtRazonDeuda2
             // 
+            this.txtRazonDeuda2.Enabled = false;
             this.txtRazonDeuda2.Location = new System.Drawing.Point(1052, 202);
             this.txtRazonDeuda2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRazonDeuda2.Name = "txtRazonDeuda2";
@@ -835,6 +857,7 @@
             // 
             // txtCobranzaCartera2
             // 
+            this.txtCobranzaCartera2.Enabled = false;
             this.txtCobranzaCartera2.Location = new System.Drawing.Point(1063, 400);
             this.txtCobranzaCartera2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaCartera2.Name = "txtCobranzaCartera2";
@@ -843,6 +866,7 @@
             // 
             // txtCobranzaPagar2
             // 
+            this.txtCobranzaPagar2.Enabled = false;
             this.txtCobranzaPagar2.Location = new System.Drawing.Point(1064, 430);
             this.txtCobranzaPagar2.Margin = new System.Windows.Forms.Padding(4);
             this.txtCobranzaPagar2.Name = "txtCobranzaPagar2";
@@ -851,6 +875,7 @@
             // 
             // txtPeriodoInv2
             // 
+            this.txtPeriodoInv2.Enabled = false;
             this.txtPeriodoInv2.Location = new System.Drawing.Point(1064, 490);
             this.txtPeriodoInv2.Margin = new System.Windows.Forms.Padding(4);
             this.txtPeriodoInv2.Name = "txtPeriodoInv2";
@@ -859,6 +884,7 @@
             // 
             // txtRotacionCartera2
             // 
+            this.txtRotacionCartera2.Enabled = false;
             this.txtRotacionCartera2.Location = new System.Drawing.Point(1050, 340);
             this.txtRotacionCartera2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCartera2.Name = "txtRotacionCartera2";
@@ -867,6 +893,7 @@
             // 
             // txtRotacionCtaPagar2
             // 
+            this.txtRotacionCtaPagar2.Enabled = false;
             this.txtRotacionCtaPagar2.Location = new System.Drawing.Point(1114, 370);
             this.txtRotacionCtaPagar2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionCtaPagar2.Name = "txtRotacionCtaPagar2";
@@ -875,6 +902,7 @@
             // 
             // txtRotacionActivo2
             // 
+            this.txtRotacionActivo2.Enabled = false;
             this.txtRotacionActivo2.Location = new System.Drawing.Point(1063, 520);
             this.txtRotacionActivo2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionActivo2.Name = "txtRotacionActivo2";
@@ -883,6 +911,7 @@
             // 
             // txtRotacionInv2
             // 
+            this.txtRotacionInv2.Enabled = false;
             this.txtRotacionInv2.Location = new System.Drawing.Point(1064, 460);
             this.txtRotacionInv2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRotacionInv2.Name = "txtRotacionInv2";
@@ -913,6 +942,7 @@
             // 
             // txtRentabilidadNeta2
             // 
+            this.txtRentabilidadNeta2.Enabled = false;
             this.txtRentabilidadNeta2.Location = new System.Drawing.Point(1051, 621);
             this.txtRentabilidadNeta2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadNeta2.Name = "txtRentabilidadNeta2";
@@ -921,6 +951,7 @@
             // 
             // txtRentabilidadOperacional2
             // 
+            this.txtRentabilidadOperacional2.Enabled = false;
             this.txtRentabilidadOperacional2.Location = new System.Drawing.Point(1051, 660);
             this.txtRentabilidadOperacional2.Margin = new System.Windows.Forms.Padding(4);
             this.txtRentabilidadOperacional2.Name = "txtRentabilidadOperacional2";
@@ -931,6 +962,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1327, 773);
             this.Controls.Add(this.label48);
             this.Controls.Add(this.label49);

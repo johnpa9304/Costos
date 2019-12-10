@@ -34,12 +34,13 @@ namespace TutoCostos
             DataTable dt = new DataTable();
 
             dt.Columns.Add("Cuenta", typeof(String));
-            dt.Columns.Add("V2017", typeof(Decimal));
-            dt.Columns.Add("V2018", typeof(Decimal));
-            dt.Columns.Add("VariacionAbsoluta", typeof(Decimal), "(V2018 - V2017)");
-            DataColumn VariacionRelativa = dt.Columns.Add("VariacionRelativa", typeof(Decimal));
-            VariacionRelativa.Expression = "IIF([V2018]<[V2017], ([V2018]-[V2017])/[V2018],([V2018]-[V2017])/[V2017])";
-            
+            dt.Columns.Add("V2024", typeof(Decimal));
+            dt.Columns.Add("V2025", typeof(Decimal));
+            dt.Columns.Add("VariacionAbsoluta", typeof(Decimal), "(V2024 - V2025)");
+            DataColumn VariacionRelativa = dt.Columns.Add("VariacionRelativa (%)", typeof(Decimal));
+            VariacionRelativa.Expression = "IIF([V2025]<[V2024], ([V2025]-[V2024])/[V2025],([V2025]-[V2024])/[V2024])";
+            dt.Columns.Add("Estado", typeof(String));
+
             string[] lines = System.IO.File.ReadAllLines(filePath);
             if (lines.Length > 0)
             {
@@ -51,8 +52,16 @@ namespace TutoCostos
                     try
                     {
                         dr["Cuenta"] = data[0];
-                        dr["V2017"] = Decimal.Parse(data[1]);
-                        dr["V2018"] = Decimal.Parse(data[2]);
+                        dr["V2024"] = Decimal.Parse(data[1]);
+                        dr["V2025"] = Decimal.Parse(data[2]);
+                        if(Decimal.Parse(data[1])< Decimal.Parse(data[2]))
+                        {
+                            dr["Estado"] = "Aumento";
+                        }
+                        else
+                        {
+                            dr["Estado"] = "Disminuyo";
+                        }
 
                         dt.Rows.Add(dr);
                     }

@@ -88,7 +88,7 @@
             // 
             // dgvRazones
             // 
-            this.dgvRazones.BackgroundColor = System.Drawing.Color.White;
+            this.dgvRazones.BackgroundColor = System.Drawing.SystemColors.Info;
             this.dgvRazones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvRazones.Location = new System.Drawing.Point(13, 43);
             this.dgvRazones.Margin = new System.Windows.Forms.Padding(4);
@@ -126,6 +126,7 @@
             // 
             // textMargenNeto
             // 
+            this.textMargenNeto.Enabled = false;
             this.textMargenNeto.Location = new System.Drawing.Point(1019, 327);
             this.textMargenNeto.Name = "textMargenNeto";
             this.textMargenNeto.Size = new System.Drawing.Size(168, 22);
@@ -133,6 +134,7 @@
             // 
             // textRotacionActivos
             // 
+            this.textRotacionActivos.Enabled = false;
             this.textRotacionActivos.Location = new System.Drawing.Point(1220, 327);
             this.textRotacionActivos.Name = "textRotacionActivos";
             this.textRotacionActivos.Size = new System.Drawing.Size(168, 22);
@@ -140,6 +142,7 @@
             // 
             // textMultiplicadorCapital
             // 
+            this.textMultiplicadorCapital.Enabled = false;
             this.textMultiplicadorCapital.Location = new System.Drawing.Point(714, 197);
             this.textMultiplicadorCapital.Name = "textMultiplicadorCapital";
             this.textMultiplicadorCapital.Size = new System.Drawing.Size(168, 22);
@@ -147,6 +150,7 @@
             // 
             // textRoa
             // 
+            this.textRoa.Enabled = false;
             this.textRoa.Location = new System.Drawing.Point(1130, 197);
             this.textRoa.Name = "textRoa";
             this.textRoa.Size = new System.Drawing.Size(168, 22);
@@ -154,6 +158,7 @@
             // 
             // textRoe
             // 
+            this.textRoe.Enabled = false;
             this.textRoe.Location = new System.Drawing.Point(932, 75);
             this.textRoe.Name = "textRoe";
             this.textRoe.Size = new System.Drawing.Size(168, 22);
@@ -207,6 +212,7 @@
             // 
             // textRoe2
             // 
+            this.textRoe2.Enabled = false;
             this.textRoe2.Location = new System.Drawing.Point(932, 114);
             this.textRoe2.Name = "textRoe2";
             this.textRoe2.Size = new System.Drawing.Size(168, 22);
@@ -214,6 +220,7 @@
             // 
             // textMultiplicadorCapital2
             // 
+            this.textMultiplicadorCapital2.Enabled = false;
             this.textMultiplicadorCapital2.Location = new System.Drawing.Point(714, 237);
             this.textMultiplicadorCapital2.Name = "textMultiplicadorCapital2";
             this.textMultiplicadorCapital2.Size = new System.Drawing.Size(168, 22);
@@ -221,6 +228,7 @@
             // 
             // textRoa2
             // 
+            this.textRoa2.Enabled = false;
             this.textRoa2.Location = new System.Drawing.Point(1130, 237);
             this.textRoa2.Name = "textRoa2";
             this.textRoa2.Size = new System.Drawing.Size(168, 22);
@@ -228,6 +236,7 @@
             // 
             // textRotacionActivos2
             // 
+            this.textRotacionActivos2.Enabled = false;
             this.textRotacionActivos2.Location = new System.Drawing.Point(1220, 369);
             this.textRotacionActivos2.Name = "textRotacionActivos2";
             this.textRotacionActivos2.Size = new System.Drawing.Size(168, 22);
@@ -235,6 +244,7 @@
             // 
             // textMargenNeto2
             // 
+            this.textMargenNeto2.Enabled = false;
             this.textMargenNeto2.Location = new System.Drawing.Point(1019, 369);
             this.textMargenNeto2.Name = "textMargenNeto2";
             this.textMargenNeto2.Size = new System.Drawing.Size(168, 22);
@@ -260,6 +270,7 @@
             // 
             // textActivos
             // 
+            this.textActivos.Enabled = false;
             this.textActivos.Location = new System.Drawing.Point(592, 327);
             this.textActivos.Name = "textActivos";
             this.textActivos.Size = new System.Drawing.Size(168, 22);
@@ -267,6 +278,7 @@
             // 
             // textActivos2
             // 
+            this.textActivos2.Enabled = false;
             this.textActivos2.Location = new System.Drawing.Point(592, 369);
             this.textActivos2.Name = "textActivos2";
             this.textActivos2.Size = new System.Drawing.Size(168, 22);
@@ -274,6 +286,7 @@
             // 
             // textPatrimonio
             // 
+            this.textPatrimonio.Enabled = false;
             this.textPatrimonio.Location = new System.Drawing.Point(786, 327);
             this.textPatrimonio.Name = "textPatrimonio";
             this.textPatrimonio.Size = new System.Drawing.Size(168, 22);
@@ -281,6 +294,7 @@
             // 
             // textPatrimonio2
             // 
+            this.textPatrimonio2.Enabled = false;
             this.textPatrimonio2.Location = new System.Drawing.Point(786, 369);
             this.textPatrimonio2.Name = "textPatrimonio2";
             this.textPatrimonio2.Size = new System.Drawing.Size(168, 22);
@@ -288,6 +302,7 @@
             // 
             // textUtilidadNeta2
             // 
+            this.textUtilidadNeta2.Enabled = false;
             this.textUtilidadNeta2.Location = new System.Drawing.Point(892, 528);
             this.textUtilidadNeta2.Name = "textUtilidadNeta2";
             this.textUtilidadNeta2.Size = new System.Drawing.Size(168, 22);
@@ -304,6 +319,7 @@
             // 
             // textUtilidadNeta
             // 
+            this.textUtilidadNeta.Enabled = false;
             this.textUtilidadNeta.Location = new System.Drawing.Point(892, 486);
             this.textUtilidadNeta.Name = "textUtilidadNeta";
             this.textUtilidadNeta.Size = new System.Drawing.Size(168, 22);
@@ -311,6 +327,7 @@
             // 
             // textVentas2
             // 
+            this.textVentas2.Enabled = false;
             this.textVentas2.Location = new System.Drawing.Point(1136, 528);
             this.textVentas2.Name = "textVentas2";
             this.textVentas2.Size = new System.Drawing.Size(168, 22);
@@ -327,6 +344,7 @@
             // 
             // textVentas
             // 
+            this.textVentas.Enabled = false;
             this.textVentas.Location = new System.Drawing.Point(1136, 486);
             this.textVentas.Name = "textVentas";
             this.textVentas.Size = new System.Drawing.Size(168, 22);
@@ -334,6 +352,7 @@
             // 
             // textActivos4
             // 
+            this.textActivos4.Enabled = false;
             this.textActivos4.Location = new System.Drawing.Point(1349, 528);
             this.textActivos4.Name = "textActivos4";
             this.textActivos4.Size = new System.Drawing.Size(168, 22);
@@ -341,6 +360,7 @@
             // 
             // textActivos3
             // 
+            this.textActivos3.Enabled = false;
             this.textActivos3.Location = new System.Drawing.Point(1349, 486);
             this.textActivos3.Name = "textActivos3";
             this.textActivos3.Size = new System.Drawing.Size(168, 22);
@@ -359,6 +379,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1583, 578);
             this.Controls.Add(this.textActivos4);
             this.Controls.Add(this.textActivos3);
